@@ -1,26 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
 
 
 
-*{
-    
+* {
+
     margin: 0;
     box-sizing: border-box;
 }
 
 
-nav{
+nav {
     color: white;
-    background-color:  #fde047;
+    background-color: #fde047;
     padding: 2rem;
     text-align: center;
     display: block;
 }
-#txt-area{
+
+#txt-area {
     width: 70%;
     height: 20vh;
     display: block;
@@ -30,33 +31,34 @@ nav{
     border-radius: 0.5rem;
 }
 
- main{
+main {
     margin: auto;
     padding: 1rem;
     max-width: 600px;
- }
+}
 
-#translate-btn{
+#translate-btn {
     max-width: 500px;
     padding: 0.6rem 1.2rem;
     margin: 1rem auto;
     border-color: solid 2px rgb(88, 176, 224);
-    color: solid 2px rgb(88, 176,224);
+    color: solid 2px rgb(88, 176, 224);
     border-radius: 0.5rem;
     display: block;
     cursor: pointer;
-    
-    
+
+
 }
- p{
+
+p {
     text-align: center;
     font-weight: bold;
-    
- }
 
- #output-div{
+}
+
+#output-div {
     border: solid 2px black;
-    font-weight:700;
+    font-weight: 700;
     width: 70%;
     height: 20vh;
     display: block;
@@ -65,9 +67,9 @@ nav{
     font-size: large;
     border-radius: 0.5rem;
 
- }
+}
 
- .backgroundimg{
+.backgroundimg {
     background-image: url("minions.png");
     height: 400px;
     background-size: 400px;
@@ -76,9 +78,9 @@ nav{
     text-align: center;
     opacity: 0.7;
 
- }
+}
 
- footer{
+footer {
     color: white;
     background-color: #fde047;
     text-align: center;
@@ -86,5 +88,5 @@ nav{
     position: fixed;
     width: 100%;
     bottom: 0;
-    
- }
+
+}
